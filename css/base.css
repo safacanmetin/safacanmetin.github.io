@@ -43,9 +43,8 @@
 
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+   position: absolute;
+   bottom: 10px;
    width: 100%;
    text-align: center;
    margin-left: 160px;
