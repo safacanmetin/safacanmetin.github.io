@@ -16,6 +16,7 @@ p {
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+    float: left;
 }
 
 
@@ -41,12 +42,14 @@ p {
   padding: 0px 10px;
     color: black;
     text-align: center;
+    
 }
 
 .main a {
     color: black;
     text-align: center;
     margin-left: 160px;
+    overflow: hidden;
 }
 
 
