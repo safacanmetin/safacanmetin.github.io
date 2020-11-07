@@ -41,6 +41,12 @@ p {
   padding: 0px 10px;
 }
 
+content {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  text-align: center;
+  color: black;
+
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
