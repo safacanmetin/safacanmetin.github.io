@@ -43,6 +43,11 @@ p {
     text-align: center;
 }
 
+.main a {
+    color: black;
+    text-align: center;
+    margin-left: 160px;
+}
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
