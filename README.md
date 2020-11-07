@@ -1,4 +1,6 @@
 # safacanmetin.github.io
 GitHub
 
-readme
+readme:
+
+HTML and W3CSS are used.
