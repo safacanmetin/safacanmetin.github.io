@@ -2,62 +2,122 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+<link rel="stylesheet" href="base.css">
 
 <head>
     <title>Safacan Metin</title>
 </head>
-<body>
 
+<body class="container-fluid text-center fixed">
 
-    <div class="w3-sidebar w3-bar-block w3-black" style="width:25%">
-        <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
-        <a href="about.html" class="w3-bar-item w3-button"><b>About</b></a>
-        <a href="projects.html" class="w3-bar-item w3-button"><b>Projects</b></a>
-        <a href="contact.html" class="w3-bar-item w3-button"><b>Contact</b></a>
-
-    </div>
-      
-
-    <div class="w3-container w3-center w3-white " style="margin-left:25%">
-        
-        <h2 style="text-align:center;">Ahoy pirate!</h2>
-        <p style="text-align:center;">Hi! I'm Safacan Metin, and this is my personal website. 	</p>
-        <p style="text-align:center;">The related information will be added... 	</p>
-        
-        
-        
-        <blockquote class="w3-panel w3-light-grey">
-            <p class="w3-small">
-            <i>"Durmak ölüm, taklit uşaklıktır, çalışmak ve yetişmek ise hayat ve hürriyettir."</i></p>
-        </blockquote>
-
+    <div class="row"> 
+        <div class="col-sm-6 text-left">
+            <h1><b>Ahoy pirate!</b></h1>
+            <h2>I'm Safacan Metin.</h2>
+            <h2>an enthusiast about tech <i class="far fa-smile-wink"></i></h2>
+            
+            <p>I have always been so curious about technology and spesifically
+            computers. I like the journeys that goes from idea to execution
+            Therefore I enjoy spending my time improving myself on topics I am
+            interested in   </p>
+            
+        </div>
+        <div class="col-sm-6 text-right">
+            <img src="/images/b.png" alt="About" class="img-thumbnail float-right">
+        </div>
     </div>
 
+    <blockquote>
+        <p>
+        <i>"Durmak ölüm, taklit uşaklıktır, çalışmak ve yetişmek ise hayat ve
+            hürriyettir."</i></p>
+        <!-- string_arr = [quote1, quote2, quote3, ...] 
+        choose one from array randomly in every page refresh --> 
+    </blockquote>
 
- 
+
+
+    <div class="text-left">
+        <h2>The Journey</h2>
+        <hr/>
+        
+        <p><b>Graduated from Izmir University of Economics with a degree in
+        Computer Engineering. </b> <i>(2020)</i> </p>
+        <p><b>Exchange Student at Riga Technical University in Latvia. </b>
+        <i>(2018)</i></p>
+
+    </div>
+
+    <div class="text-left">
+        <h2>Technology Stack</h2>
+        <hr/>
+        <li>I'm currently focused on <mark>RDBMS</mark> and Database
+        Systems.</li>
+        <li>I have worked with <mark>Python</mark> and <mark>MATLAB</mark> to
+        build some projects. </li>
+        <li>I have some knowledge on <mark>AWS</mark> and <mark>GCP</mark>. </li>
+        
+        
+        <p style="margin-top: 2rem;"><i>Currently Learning: Oracle Database</i></p>  
+
+    </div>
+
+
+    <div class="text-left">
+        <h2>Projects</h2>
+        <hr/>
+        <div>
+            <li>Enhancing Two-Photon Time Series for
+                Anatomical Visualisation</li>
+            <li>...</li>
+        </div>    
+
+    </div>
         
 
 
+    <div id="buttons">
+            <h2 class="text-left">Contact</h2>
+            <hr/>
+            <li style="list-style-type: none;"><a
+            href="https://github.com/safacanmetin" target="_blank"><button
+            style="font-size:20px; margin-bottom:3px;"><i class="fa
+            fa-github"></i> Github</button></a></li>
+            
+            <li style="list-style-type: none;"><a
+            href="https://www.linkedin.com/in/safacanmetin/"
+            target="_blank"><button style="font-size:20px;
+            margin-bottom:3px;"><i class="fa fa-linkedin"></i>
+            LinkedIn</button></a></li>
 
-    <div class="w3-container w3-black w3-center w3-bottom" id="footer">
-        <a href="https://github.com/safacanmetin">Github</a>
-        <a href="mailto:safacanmetin@gmail.com">Email</a>
-        <p>This site is established using HTML and CSS by Safacan Metin.</p>
+            <li style="list-style-type: none;"><a
+            href="mailto:safacanmetin@gmail.com" target="_blank"><button
+            style="font-size:20px; margin-bottom:3px;"><i class="fa
+            fa-envelope"></i> Email</button></a></li>
+            
+            
     </div>
 
 
 
 
+    <footer class="text-right">
+            <div id="footer">
+                <p>© Safa Can Metin</p>
+                <a href="mailto:safacanmetin@gmail.com">Email</a>
+            </div>
+    </footer>
 
+    
 
 
 </body>
-
-
-
 </html>
 
 

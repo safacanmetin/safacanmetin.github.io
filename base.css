@@ -1,0 +1,32 @@
+* {
+    margin-top: 1em;
+    
+}
+
+body{
+    border-right: 1px dashed #333;
+    border-left: 1px dashed #333;
+}
+
+.fixed{
+    width: 50%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+footer{
+    margin-bottom: 1em;
+}
+
+mark{
+    background-color: lightcyan;
+}
