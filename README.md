@@ -3,4 +3,4 @@ GitHub
 
 readme:
 
-HTML and Bootstrap are used.
+HTML, Bootstrap and JS are used.
