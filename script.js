@@ -7,7 +7,7 @@ function myFunction() {
     "There are no shortcuts to any place worth going.",    
     "If you have no critics you’ll likely have no success.",
     "If you want to shine like the sun, first burn like the sun.",
-    "If it is important to you, you will find a way. If not, you’ll find an excuse.",
+    "If it is important to you, you will find a way. If not, you’ll find an excuse."
 
 
     ];
