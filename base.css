@@ -1,5 +1,6 @@
 * {
     margin-top: 1em;
+    color: #FFFFFF;
 }
 
 ::selection{
@@ -8,7 +9,6 @@
 
 body{
     background-color: #252527;
-    color: #FFFFFF;
     border-right: 1px dashed #333;
     border-left: 1px dashed #333;
 }
