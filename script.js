@@ -1,4 +1,4 @@
-function myFunction() {
+function newQuote() {
     var quotes = ["Durmak ölüm, taklit uşaklıktır, çalışmak ve yetişmek ise hayat ve hürriyettir.",
     "Akılsız başın cezasını ayaklar çeker.",
     "Be the change that you wish to see in the world. Mahatma Gandhi",
@@ -17,13 +17,29 @@ function myFunction() {
     document.getElementById("demo").innerHTML = quotes[random];
 }
 
-$(document).ready(function(){
-    return myFunction();
-  });
+window.onload = function() {
+  newQuote(); // Initial quote
+  setInterval(newQuote, 4000); // Change quote every 4 seconds
+};
 
 
-// $(window).bind("beforeunload",function(event) {
-//     return myFunction();
-    
-// });
 
+function toggleDropdown() {
+  var dropdown = document.getElementById("skills-dropdown");
+  var items = dropdown.querySelectorAll("li");
+
+  // Toggle visibility
+  if (dropdown.style.display === "none" || dropdown.style.display === "") {
+      dropdown.style.display = "block";
+
+      // Trigger reflow to reset animations
+      items.forEach((item, index) => {
+          item.style.animation = 'none'; // Remove previous animation
+          item.offsetHeight;  // Trigger reflow
+          item.style.animation = ''; // Reset animation
+          item.style.animationDelay = `${index * 0.1}s`; // Set delay based on index
+      });
+  } else {
+      dropdown.style.display = "none";
+  }
+}

@@ -1,53 +1,131 @@
-* {
-    margin-top: 1em;
-    color: #ffffff;
+body{
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    max-width: 95%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-right: 1px dashed #333;
+    border-left: 1px dashed #333;
 }
 
 ::selection{
     background-color: rgba(180, 180, 180, 0.644);
 }
 
-body{
-    background-color: rgb(24, 24, 24);
-    border-right: 1px dashed #333;
-    border-left: 1px dashed #333;
-}
-
-.fixed{
-    width: 50%;
-}
-
-h1 {
-    font-size: 45px;
-}
-
-hr{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 3px solid rgba(0, 0, 0, 0.8);
-}
-
-footer{
+hr{ /* horizontal rule */
+    margin-top: 1em;
     margin-bottom: 1em;
+    background-color: black;
+    height: 3px;
 }
 
-mark{
-    background-color: lightcyan;
+blockquote {
+    margin: 25px 5px 5px;
+    margin-bottom: 15px;
 }
 
 button{
-    vertical-align: middle;
-    text-align: center;
-    margin-bottom: 50%;
-    margin-top: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     background-color:rgba(180, 180, 180, 0.644);
     color: black;
+    
 }
 
+#photo-span{
+}
+
+#photo{
+    max-inline-size: 25rem;
+    position: relative;
+}
 
 #demo{
     background-color: rgba(204, 245, 255, 0.815);
     color: rgb(0, 0, 0);
 }
 
+
+#contact {
+    display: block;
+    gap: 10px;   
+}
+
+#contact button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 40%;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;       
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#contact button:hover {
+    background-color: #555;
+    transform: scale(1.2);
+}
+
+#contact button i {
+    margin: 0;
+}
+
+.job-title {
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.dropdown-content ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fall 0.5s ease forwards;
+}
+
+@keyframes fall {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tech-stack-category{
+    font-weight: bold;
+}
+
+.project-title{
+    font-weight: bold;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-sizing: border-box;
+}
